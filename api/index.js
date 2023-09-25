@@ -16,7 +16,7 @@ app.use("/images", express.static(path.join(__dirname, "/images")));
 
 app.use(cors(
   {
-    origin: ["https://"],
+    origin: ["https://capstone-mern-blog-7qlb"],
     methods: ["CREATE", "READ", "UPDATE", "DELETE"],
     credentials: true
   }
